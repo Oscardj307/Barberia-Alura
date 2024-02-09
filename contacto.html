@@ -57,7 +57,7 @@
 
                 <label class="checkbox"><input type="checkbox" checked>Le gustaria ser contactado para recibir novedades de la Barberia Alura?</label>
 
-                <input class="enviar" type="submit" value="Enviar formulario">
+                <input class="enviar" type="submit" value="Enviar formulario" id="enviando">
                 
                 <table class="tabla-horario">
                     <thead>
@@ -88,6 +88,10 @@
         <img src="productos/imagenes/logo-blanco.png" alt="Este el logo de la barberia">
         <p class="Copyrigth">&copy; Copyrigth Barberia Alura - 2020</p>
 </footer>
-
+<script>
+  document.getElementById("enviando").onclick = function() {
+    alert("Tus datos han sido enviados. Te contactaremos en breve");
+  };
+</script>
 </body>
 </html>
