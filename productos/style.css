@@ -293,4 +293,7 @@ font-weight: bold;
     .lista-Diferenciales, .imagen-Diferenciales{
         width: 100%;
     }
+    #mensaje{
+        width: 100%;
+    }
 }
