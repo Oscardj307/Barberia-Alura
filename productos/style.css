@@ -296,4 +296,9 @@ font-weight: bold;
     #mensaje{
         width: 100%;
     }
+
+    .productos li {
+        display: block;
+        margin: 5px 5px 20px 0px;
+    }
 }
