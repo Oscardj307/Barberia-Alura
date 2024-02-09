@@ -43,9 +43,10 @@ color: #c78c19;
 text-decoration: underline;
 }
 
+
 .productos {
-    width: 940px;
-    position: relative;
+    width: 100%;
+   position: relative; 
     margin: 0 auto;
     padding: 50px;
 }
@@ -286,7 +287,7 @@ font-weight: bold;
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-Diferenciales, .video, .form-datos, footer{
+    .caja, .principal, .mapa-contenido, .contenido-Diferenciales, .video, .form-datos, .div-productos{
         width: auto;
         padding: 1em;
     }
@@ -299,6 +300,13 @@ font-weight: bold;
 
     .productos li {
         display: block;
-        margin: 5px 5px 20px 0px;
+        width: 100%; 
+        margin: 0 0 20px 0;
+        
+    }
+
+    .productos {
+        padding: 32px;
+        width: auto;
     }
 }
