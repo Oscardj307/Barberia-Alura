@@ -188,7 +188,7 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    text-shadow: 0 7px 6px #000000;
+    /*text-shadow: 0 7px 6px #000000; */
 }
 
 .titulo-principal:first-letter {
@@ -250,8 +250,7 @@ font-weight: bold;
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient( #ffffff,#ccc, #888 )
-    
+    background:#ffffff;    
 }
 
 .mapa p {
@@ -266,7 +265,7 @@ font-weight: bold;
 
 .diferenciales {
     padding: 3em 0;
-    background: #888;
+    background: #fefefe;
 
 }
 
